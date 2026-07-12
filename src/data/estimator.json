@@ -1,0 +1,86 @@
+{
+  "seasonal_cleanup": {
+    "label": "Seasonal Cleanup",
+    "unit": "sqft",
+    "unitLabel": "Property Size (sq ft)",
+    "basePrice": 150,
+    "pricePerUnit": 0.015,
+    "minUnits": 5000,
+    "maxUnits": 50000,
+    "defaultUnits": 8000,
+    "description": "Spring or fall cleanup including leaf removal, bed edging, and debris hauling.",
+    "factors": ["Property size and complexity", "Amount of debris and leaf coverage", "Number of garden beds", "Accessibility"]
+  },
+  "soil_health": {
+    "label": "Soil Health Program",
+    "unit": "sqft",
+    "unitLabel": "Lawn Area (sq ft)",
+    "basePrice": 144,
+    "pricePerUnit": 0.0432,
+    "minUnits": 5000,
+    "maxUnits": 40000,
+    "defaultUnits": 5000,
+    "description": "Soil testing, aeration, topdressing, and amendment program for a healthier lawn.",
+    "factors": ["Lawn size", "Current soil condition", "Number of treatments", "Amendment materials needed"]
+  },
+  "yard_installation": {
+    "label": "Yard Installation & Grading",
+    "unit": "sqft",
+    "unitLabel": "Area to Install (sq ft)",
+    "basePrice": 360,
+    "pricePerUnit": 0.252,
+    "minUnits": 5000,
+    "maxUnits": 30000,
+    "defaultUnits": 5000,
+    "description": "Full yard installation including grading, topsoil, and seeding or sod.",
+    "factors": ["Area size and current condition", "Grading complexity", "Sod vs. seed choice", "Topsoil depth required"]
+  },
+  "lot_clearing": {
+    "label": "Lot Clearing & Skid Steer",
+    "unit": "acres",
+    "unitLabel": "Lot Size (acres)",
+    "basePrice": 1080,
+    "pricePerUnit": 864,
+    "minUnits": 0.25,
+    "maxUnits": 20,
+    "defaultUnits": 1,
+    "description": "Full lot clearing, grubbing, and site preparation with skid steer equipment.",
+    "factors": ["Lot size and vegetation density", "Tree and stump removal needs", "Debris hauling distance", "Site accessibility"]
+  },
+  "concrete": {
+    "label": "Concrete Flatwork",
+    "unit": "sqft",
+    "unitLabel": "Concrete Area (sq ft)",
+    "basePrice": 216,
+    "pricePerUnit": 6.12,
+    "minUnits": 100,
+    "maxUnits": 5000,
+    "defaultUnits": 400,
+    "description": "Driveways, walkways, patios, and utility pads poured with professional finish.",
+    "factors": ["Square footage and thickness", "Sub-base preparation needed", "Decorative or stamped finish", "Reinforcement requirements"]
+  },
+  "pavers": {
+    "label": "Paver Installation",
+    "unit": "sqft",
+    "unitLabel": "Paver Area (sq ft)",
+    "basePrice": 360,
+    "pricePerUnit": 12.96,
+    "minUnits": 100,
+    "maxUnits": 5000,
+    "defaultUnits": 300,
+    "description": "Custom paver patios, walkways, driveways, and pool surrounds.",
+    "factors": ["Square footage and pattern complexity", "Paver material and grade", "Base preparation depth", "Edging and border details"]
+  },
+  "snow_removal": {
+    "label": "Snow Removal",
+    "unit": "sqft",
+    "unitLabel": "Property Size (sq ft)",
+    "basePrice": 120,
+    "pricePerUnit": 0.018,
+    "minUnits": 5000,
+    "maxUnits": 50000,
+    "defaultUnits": 10000,
+    "description": "Professional snow removal and ice management for driveways, walkways, and parking areas.",
+    "factors": ["Property size and complexity", "Driveway and walkway length", "Snow accumulation amount", "Ice melt treatment needs"]
+  }
+}

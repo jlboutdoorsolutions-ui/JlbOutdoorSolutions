@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "clientName": "Add your client's name",
+    "location": "St. Louis, MO",
+    "rating": 5,
+    "review": "Replace this with a real review from a client. Keep it short and specific \u2014 what did JLB do, and what did the client love about it?",
+    "service": "Pavers",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "clientName": "Add your client's name",
+    "location": "St. Louis, MO",
+    "rating": 5,
+    "review": "Replace this with a real review from a client.",
+    "service": "Concrete Flatwork",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "clientName": "Add your client's name",
+    "location": "St. Louis, MO",
+    "rating": 5,
+    "review": "Replace this with a real review from a client.",
+    "service": "Seasonal Cleanup",
+    "featured": true
+  }
+]
