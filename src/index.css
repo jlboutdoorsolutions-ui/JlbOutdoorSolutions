@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-cream text-ink font-body antialiased;
+}
+
+::selection {
+  @apply bg-rust text-cream;
+}
+
+/* visible keyboard focus everywhere */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 3px solid #D9A441;
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* stamp / ticket edge effect used on the estimator card */
+.ticket-edge {
+  --notch: 22px;
+  mask-image: radial-gradient(circle at var(--notch) var(--notch), transparent calc(var(--notch) - 1px), black var(--notch));
+}
+
+.stamp-rotate {
+  transform: rotate(-8deg);
+}

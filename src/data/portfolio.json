@@ -1,0 +1,26 @@
+[
+  {
+    "id": "project-1",
+    "title": "Add your first project",
+    "service": "concrete-flatwork",
+    "location": "St. Louis, MO",
+    "description": "Swap this entry out in src/data/portfolio.json — add a title, service tag, and photo path once you have a finished job to show off.",
+    "imageUrl": ""
+  },
+  {
+    "id": "project-2",
+    "title": "Add your second project",
+    "service": "hardscaping",
+    "location": "St. Louis, MO",
+    "description": "Drop your photo in public/portfolio/ and point imageUrl at it, e.g. /portfolio/your-photo.jpg",
+    "imageUrl": ""
+  },
+  {
+    "id": "project-3",
+    "title": "Add your third project",
+    "service": "pressure-washing",
+    "location": "St. Louis, MO",
+    "description": "Before/after shots perform best here — consider two images side by side.",
+    "imageUrl": ""
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "testimonial-1",
+    "name": "Add a customer name",
+    "location": "St. Louis, MO",
+    "service": "concrete-flatwork",
+    "quote": "Replace this with a real quote from a happy customer once you have one. Keep it short — one or two sentences reads best.",
+    "rating": 5
+  },
+  {
+    "id": "testimonial-2",
+    "name": "Add a customer name",
+    "location": "St. Louis, MO",
+    "service": "snow-removal",
+    "quote": "Replace this with a real quote from a happy customer once you have one.",
+    "rating": 5
+  }
+]
